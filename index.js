@@ -1,4 +1,4 @@
-import { menuArray } from "/data"
+import { menuArray } from "./data.js"
 
 let cartData = []
 const paymentForm = document.getElementById("payment-form")
