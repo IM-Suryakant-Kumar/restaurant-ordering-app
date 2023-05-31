@@ -1,0 +1,213 @@
+body {
+    margin: 0 auto;
+    font-family: 'Smythe', cursive;
+}
+
+/* Layout */
+
+header {
+    background-image: url("bg-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    color: white;
+}
+
+main {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.product {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.product-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* typography */
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-shadow: 0 0 1px black;
+}
+
+p {
+    margin-top: -10px;
+    font-size: 17px;
+    font-weight: 400;
+    text-shadow: 0 0 1px black;
+}
+
+i {
+    cursor: pointer;
+}
+
+input {
+    border: none;
+}
+
+.font-bold {
+    font-weight: 400;
+}
+
+.hidden {
+    display: none;
+}
+
+/* product + btn */
+
+.product-item {
+    width: 70px;
+    font-size: 50px;
+}
+
+.product-name {
+    font-size: 20px;
+}
+
+.product-ingredients {
+    font-size: 14px;
+    color: #8b8b8b;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3C3C3C;
+    padding: 8px;
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+}
+
+/* complete order or checkout */
+
+button {
+    width: 100%;
+    background: #16DB99;
+    color: white;
+    text-shadow: 0 0 1px black;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.checkout-cont {
+    margin-top: 25px; 
+}
+
+.checkout-title {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cart {
+    border-bottom: 2px solid #393333;
+}
+
+.cart-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.remove-btn {
+    margin: 0 auto 0 8px;
+    color: #BBBBBB;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.total-cart-price {
+    margin-top: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-btn {
+    width: 100%;
+    margin-top: 30px;
+    padding: 12px 0;
+    font-size: 15px;
+    background: #16DB99;
+    color: white;
+    text-shadow: 0 0 1px black;
+    border: 1px solid #16DB99;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* Payment form */
+
+.payment-form {
+    width: 80%;
+    height: 53%;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 2px 2px 10px 4px #BBBBBB;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.form-ch-el {
+    margin: 12px 0;
+    border: 1px solid #757575;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+.pay-btn {
+    margin-top: 20px;
+}
+
+/* payment-status */
+
+.payment-status-el {
+    margin-top: 40px;
+    text-align: center;
+    background: #ECFDF5;
+}
+
+.payment-greet {
+    color: #065F46;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 70px;
+}

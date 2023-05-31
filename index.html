@@ -1,0 +1,57 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- metadata -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <header>
+            <h1>Jimmy's Dinner<h1>
+            <p>The best burgers and pizas in town</p>
+        </header>
+        <main>
+            <!-- Products -->
+            <div id="products"></div>
+            
+            <!-- checkout -->
+            <div class="checkout-cont hidden" id="checkout-cont">
+                <h2 class="checkout-title">Your order</h2>
+                <div class="cart" id="cart"></div>
+                <div class="total-cart-price" id="total-cart-price">
+                    <span>Total price</span>
+                    <span id="total-price">$26</span>
+                </div>
+                <button class="order-btn" id="order-btn">Complete order</button>
+            </div>
+            
+            <!-- payment form -->
+            <form class="payment-form hidden" id="payment-form">
+                <h3 class="form-title">Enter card details</h3>
+                <div class="form-ch-el">
+                    <input type="text" placeholder="Enter your name" id="name-input">
+                </div>
+                <div class="form-ch-el">
+                    <input type="number" placeholder="Enter card number">
+                </div>
+                <div class="form-ch-el">
+                    <input type="number" placeholder="Enter CVV">
+                </div>
+                <button class="pay-btn" id="pay-btn">Pay</button>
+            </form>
+            
+            <!-- payment status -->
+            <div class="payment-status-el hidden" id="payment-status-el">
+                
+            </div>
+        </main>
+	    <script src="index.js" type="module"></script>
+    </body>
+</html>
+
